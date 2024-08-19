@@ -10,6 +10,8 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@nuxt/image": "^1.7.0",
+    "@pivale/nuxt-image-loader-module": "^1.4.4",
     "axios": "^1.7.3",
     "nuxt": "^3.12.4",
     "vue": "latest"

@@ -2,7 +2,7 @@
 export default defineNuxtConfig({
   app: {
     head: {
-      title: 'My Nuxt App',
+      title: 'Brain O Brain',
       meta: [
         {charset: 'utf-8'},
         {name:'viewport', content: 'width-device-width, initial-scale=1'},
@@ -38,5 +38,6 @@ export default defineNuxtConfig({
     }
   },
 
-  compatibilityDate: '2024-08-12'
+  compatibilityDate: '2024-08-12',
+  modules: ["@nuxt/image"]
 })
