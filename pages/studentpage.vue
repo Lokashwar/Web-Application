@@ -21,6 +21,7 @@
 <script>
 export default {
   name: 'StudentPage',
+  middleware: 'auth', // Apply the auth middleware
 };
 </script>
 

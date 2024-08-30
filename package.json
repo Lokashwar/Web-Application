@@ -12,8 +12,15 @@
   "dependencies": {
     "@nuxt/image": "^1.7.0",
     "@pivale/nuxt-image-loader-module": "^1.4.4",
-    "axios": "^1.7.3",
     "nuxt": "^3.12.4",
+    "nuxt3-pinia": "^1.0.14",
     "vue": "latest"
+  },
+  "devDependencies": {
+    "@pinia/nuxt": "^0.5.4",
+    "i": "^0.3.7",
+    "npm": "^10.8.2",
+    "pinia": "^2.2.2",
+    "sass-embedded": "^1.77.8"
   }
 }
